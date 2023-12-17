@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #1F2235;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 300px;
+
+  }
+
+.logo{
+    font-family: sans-serif;
+    font-size: 20 px;
+  }
+  
+  
+  .NavLinks {
+    list-style: none;
+    display: flex;
+  }
+  
+  .NavLink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 8px;
+    padding-inline: 16px;
+    border-style: inset;
+    border-radius: 15px 50px;
+    border-width: 1px;
+  }
