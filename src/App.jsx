@@ -6,6 +6,7 @@ import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
 import Skills from './components/Skills.jsx';
+import Footer from './components/Footer.jsx';
 
 
 const App = () => {
@@ -21,7 +22,7 @@ const App = () => {
              <Route path='/contact' element={<Contact/>}/>
              <Route path='/skills' element={<Skills/>}/>
             </Routes>
-
+          <Footer/>
         </Router>
    </>
   );
