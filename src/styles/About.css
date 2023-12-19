@@ -1,0 +1,26 @@
+.HeroSection {
+    background-color: #1F2235;
+}
+
+.AboutSection{
+    display: flex ;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 90px 0px;
+}
+
+.ImageSection {
+    flex: 0.8;
+    margin: 0px 80px;
+}
+.ImageSection img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.AboutMe {
+    flex: 2;
+    margin-right: 90px;
+}

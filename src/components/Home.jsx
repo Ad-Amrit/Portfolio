@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import '../styles/Home.css'
 import Profile from '../Assets/profile1.png'
+import { GitHub, Linkedin, Facebook, Instagram } from 'react-feather' ;
 
 const Home = () => {
   return ( 
@@ -22,20 +23,24 @@ const Home = () => {
            }}
           />
           </p>
-         <button class="glow-on-hover" type="button">My Resume</button>
-         <div>
-          <ul>
-            <li><a href="https://github.com/Ad-Amrit" target='_blank' className='SocialLinks'>GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/amrit-adhikari-45a538277/" target='_blank' className='SocialLinks'>LinkedIn</a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100077310444507" target='_blank' className='SocialLinks'>FaceBook</a></li>
-            <li><a href="https://www.instagram.com/__amrit_8__/" target='_blank' className='SocialLinks'>Instagram</a></li>
-          </ul>
-        </div>
+          <div className="SocialIcons">
+              <a href="https://github.com/Ad-Amrit" target="_blank"> <span><GitHub/></span>
+              </a>
+              <a href="https://www.linkedin.com/in/amrit-adhikari-45a538277/" target="_blank" > <span><Linkedin/></span> 
+              </a>
+              <a href="https://www.facebook.com/profile.php?id=100077310444507" target="_blank"> <span><Facebook/></span>
+              </a>
+              <a href="https://www.instagram.com/__amrit_8__/" target="_blank"><span><Instagram/></span>
+              </a>
+
+          </div>
+          <button class="glow-on-hover" type="button" onClick={()=>window.open("https://drive.google.com/file/d/1uC2jB8gPbuDSKk6HyJqia8zPPftAER46/view?usp=sharing")}>My Resume</button>
        </div>
-        </div>
+     </div>
 
-      <div><h1>Tools</h1></div>
-
+      {/* <div>
+         <h1>Tools</h1>
+      </div> */}
     </div>
   );
 };
